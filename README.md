@@ -10,6 +10,7 @@ This project focuses on data collected from sensory wearable devices only. The p
 This project also will be using "BioStress" dataset collected through a survey conducted by KOCAÇINAR, B et al. (2023). 48 volunteers took part in this 15-17 minutes long stress inducing session in the presence of a psychologist expert and data was collected from Empatica E4 device worn by these volunteers. The collected data is in CSV format and entire size of the dataset is around 81MB. Unlike “Stress-Predict Dataset”, this dataset is ready for Machine learning model as it has combined all the physiological signals along with timestamp and stress labels in upstream and downstream datasets. (KOCAÇINAR, B et al. 2023).
 
 ### Data Flow Architecture
+![github ](https://github.com/aryama-ray/Cognitive-Stress-Management-using-Sensory-wearables-IoT/assets/42118282/71641d24-cf99-492f-9ce7-0a9abb430435)
 
 ### References:
 Iqbal, T., Simpkin, A.J., Roshan, D., Glynn, N., Killilea, J., Walsh, J., Molloy, G., Ganly, S., Ryman, H., Coen, E., Elahi, A., Wijns, W., & Shahzad, A. (2022). Stress Monitoring Wearable Sensors: A Pilot Study and Stress-Predict Dataset. Sensors 2022, 22, 8135. https://www.mdpi.com/1424-8220/22/21/8135.
