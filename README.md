@@ -2,3 +2,16 @@ Rising stress levels have caught everyone’s attention like never before. Stres
 
 Previous studies showed that with linear and non-linear HRV features and using SVM machine learning model higher accuracy was achieved. We are aiming to predict stress levels with 80% accuracy approximately. The performance and results of the algorithms will be compared based on Accuracy, F1-score, confusion matrix. The Project will positively impact individuals’ well-being by detecting stress in the initial stages and preventing long-term health issues. Based on classification and detection of stress levels, suggestions would be provided to individuals to facilitate their mental wellness.
 
+### Data Source:
+Stress may be defined within the context of stress classification and its various types of data sources that give a varied view into the physical and mental condition of a person. Understandably, in this regard, the understanding of these varied data sources—speech, facial expression, and IoT data, to be specific—is of prime importance for a system that seeks to develop the determination of comprehensive stress classification.
+
+This project focuses on data collected from sensory wearable devices only. The project will be using a biophysiological dataset, named the “Stress-Predict Dataset”. Iqbal, T et al. (2022) conducted a pilot study where they collected physiological signals from 35 healthy volunteers using wrist-worn watches with a photoplethysmogram (PPG) sensor. These subjects went through a series of stress tests (i.e., Stroop color test, Trier Social Stress Test and Hyperventilation Provocation Test) along with intermittent rest time. This dataset captures accelerometer (x, y, z axes), raw BVP, skin conductance EDA, heart rate, inter-beat-interval, skin temperature data and timestamp tags for each task start and end. Also, the data set has a label indicating presence or absence of stress for each timestamp for each participant. The dataset is shared by Iqbal. T (2022) in his GitHub repository in comma-separated values (CSV) format for each feature for each volunteer. The size of the entire data is approximately 70MB.
+
+This project also will be using "BioStress" dataset collected through a survey conducted by KOCAÇINAR, B et al. (2023). 48 volunteers took part in this 15-17 minutes long stress inducing session in the presence of a psychologist expert and data was collected from Empatica E4 device worn by these volunteers. The collected data is in CSV format and entire size of the dataset is around 81MB. Unlike “Stress-Predict Dataset”, this dataset is ready for Machine learning model as it has combined all the physiological signals along with timestamp and stress labels in upstream and downstream datasets. (KOCAÇINAR, B et al. 2023).
+
+### Data Flow Architecture
+
+### References:
+Iqbal, T., Simpkin, A.J., Roshan, D., Glynn, N., Killilea, J., Walsh, J., Molloy, G., Ganly, S., Ryman, H., Coen, E., Elahi, A., Wijns, W., & Shahzad, A. (2022). Stress Monitoring Wearable Sensors: A Pilot Study and Stress-Predict Dataset. Sensors 2022, 22, 8135. https://www.mdpi.com/1424-8220/22/21/8135.
+
+Çöpürkaya, Ç., Meriç, E., Erik, E. B., Kocaçınar, B., Akbulut, F. P., & Catal, C. (2023). Investigating the effects of stress on achievement: BIOSTRESS dataset. Data in brief, 49, 109297. https://doi.org/10.1016/j.dib.2023.109297
